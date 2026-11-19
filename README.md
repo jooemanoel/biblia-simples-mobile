@@ -94,3 +94,19 @@ Detalhes de implementação:
   93 mil versículos, exceto pelo `ʼ` da NVI ("dʼágua"), que aqui vira separador — assim,
   digitar `d'agua` também encontra.
 - Os versículos podem ser selecionados e copiados (toque longo).
+
+## Fonte dos textos
+
+Os textos bíblicos vêm do repositório [damarals/biblias](https://github.com/damarals/biblias), de Daniel Amaral, por meio do [biblia-simples](https://github.com/jooemanoel/biblia-simples) (versão em Angular) e do [biblia-simples-vue](https://github.com/jooemanoel/biblia-simples-vue).
+
+As traduções incluídas são protegidas por direitos autorais e pertencem às suas editoras:
+
+| Versão | Editora |
+|---|---|
+| Almeida Revista e Atualizada (ARA) | Sociedade Bíblica do Brasil (SBB) |
+| Nova Versão Internacional (NVI) | Biblica |
+| Nova Versão Transformadora (NVT) | Editora Mundo Cristão |
+
+Este é um projeto pessoal, sem fins lucrativos: não tem anúncios e não cobra nada. Os textos
+não são cedidos sob nenhuma licença deste repositório. Se você representa uma dessas editoras
+e deseja a remoção de algum texto, abra uma [issue](https://github.com/jooemanoel/biblia-simples-rn/issues) e ele será retirado.
