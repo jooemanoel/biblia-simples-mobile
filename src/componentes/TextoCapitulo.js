@@ -21,8 +21,10 @@ const Versiculo = memo(function Versiculo({ numero, texto, destacado, tamanho, c
       >
         <Text style={[estilos.numero, { fontSize: Math.round(tamanho * 0.62), color: cores.destaque }]}>
           {numero}
-          {" "}
         </Text>
+        {/* Espaço no tamanho do texto (não do número, que é menor) e não separável:
+            o número nunca fica sozinho no fim da linha. */}
+        {"  "}
         {texto}
       </Text>
     </View>
