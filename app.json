@@ -1,17 +1,21 @@
 {
   "expo": {
-    "name": "biblia-simples-rn",
-    "slug": "biblia-simples-rn",
+    "name": "Bíblia",
+    "slug": "biblia-simples",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#f5fafa",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jooemanoel.bibliasimples"
     },
     "android": {
+      "package": "com.jooemanoel.bibliasimples",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#006a6a",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -19,6 +23,22 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 160,
+          "backgroundColor": "#006a6a",
+          "dark": {
+            "image": "./assets/splash-icon.png",
+            "backgroundColor": "#1b2627"
+          }
+        }
+      ],
+      "expo-sqlite",
+      ["./plugins/cmake-recente", { "versao": "3.31.6" }]
+    ]
   }
 }

@@ -39,3 +39,11 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Gerados por "npx expo prebuild" (Continuous Native Generation)
+/android
+/ios
+
+# Builds
+*.apk
+*.aab
