@@ -97,7 +97,7 @@ Detalhes de implementação:
 
 ## Fonte dos textos
 
-Os textos bíblicos vêm do repositório [damarals/biblias](https://github.com/damarals/biblias), de Daniel Amaral, por meio do [biblia-simples](https://github.com/jooemanoel/biblia-simples) (versão em Angular) e do [biblia-simples-vue](https://github.com/jooemanoel/biblia-simples-vue).
+Os textos bíblicos vêm do repositório [damarals/biblias](https://github.com/damarals/biblias), de Daniel Amaral.
 
 As traduções incluídas são protegidas por direitos autorais e pertencem às suas editoras:
 
