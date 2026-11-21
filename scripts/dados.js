@@ -11,7 +11,7 @@
 // o bytecode cai de ~25 MB para ~13 MB, e o JSON.parse ao abrir um livro é rápido.
 //
 // Uso: npm run dados [-- caminho/para/biblia]
-//      (padrão: ../biblia-simples-vue/public/biblia — pastas ARA, NVI, NVT com 01..66.json)
+//      (padrão: ../biblia-simples-web/public/biblia — pastas ARA, NVI, NVT com 01..66.json)
 const { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } = require("node:fs");
 const { join, resolve } = require("node:path");
 
@@ -19,7 +19,7 @@ const VERSOES = ["ARA", "NVI", "NVT"];
 const TOTAL_LIVROS = 66;
 
 const raiz = resolve(__dirname, "..");
-const origem = resolve(process.argv[2] ?? join(raiz, "../biblia-simples-vue/public/biblia"));
+const origem = resolve(process.argv[2] ?? join(raiz, "../biblia-simples-web/public/biblia"));
 const destino = join(raiz, "src/dados/biblia");
 
 if (!existsSync(origem)) {

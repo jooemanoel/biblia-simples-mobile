@@ -1,7 +1,7 @@
 # Bíblia Simples (React Native)
 
 Leitura da Bíblia nas versões **ARA**, **NVI** e **NVT** para Android, feita em
-React Native com Expo (SDK 58). Equivalente ao [biblia-simples-vue](../biblia-simples-vue),
+React Native com Expo (SDK 58). Equivalente ao [biblia-simples-web](https://github.com/jooemanoel/biblia-simples-web),
 com o texto inteiro embutido no app: funciona offline desde a instalação.
 
 ## Comandos
@@ -11,7 +11,7 @@ npm install
 npm start          # servidor de desenvolvimento: ler o QR code com o app Expo Go no celular
 npm run android    # compila e instala no emulador/celular via USB (precisa do Android SDK)
 npm run lint       # ESLint (regras do Expo + React Compiler)
-npm run dados      # regera src/dados/biblia a partir de ../biblia-simples-vue/public/biblia
+npm run dados      # regera src/dados/biblia a partir de ../biblia-simples-web/public/biblia
 npm run icones     # regera os ícones e a splash em assets/
 ```
 
@@ -109,4 +109,4 @@ As traduções incluídas são protegidas por direitos autorais e pertencem às 
 
 Este é um projeto pessoal, sem fins lucrativos: não tem anúncios e não cobra nada. Os textos
 não são cedidos sob nenhuma licença deste repositório. Se você representa uma dessas editoras
-e deseja a remoção de algum texto, abra uma [issue](https://github.com/jooemanoel/biblia-simples-rn/issues) e ele será retirado.
+e deseja a remoção de algum texto, abra uma [issue](https://github.com/jooemanoel/biblia-simples-mobile/issues) e ele será retirado.
